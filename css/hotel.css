@@ -1,0 +1,567 @@
+/*头部区域*/
+#header{
+	width:100%;
+	height:113px;
+	border-bottom: 4px solid #196fb9;
+}
+#header .h_con{
+	width:1000px;
+	height:113px;
+	margin:0px auto;
+	box-sizing:border-box;
+	padding-left:140px;
+	background:url(../images/logo.png) 8px 14px no-repeat;
+}
+#header .h_con .h_con1{
+	padding-top:15px;
+	margin-left:275px;
+	width:580px;
+	height:30px;
+	position: relative;
+}
+#header .h_con .h_con1 div{
+	float:left;
+}
+.h_con .photo,.h_con .login,.h_con .add,.h_con .luggage{
+	margin-top: 5px;
+}
+#header .h_con .h_con1 .photo{
+	box-sizing:border-box;
+	width:150px;
+	height:20px;
+	padding-left:25px;
+	background: url(../images/photo.png)  no-repeat;
+	font-weight: bold;
+	font-size: 18px;
+}
+#header .h_con .h_con1 .photo a{
+	color:#ffa000;
+}
+#header .h_con .h_con1 .login,#header .add{
+	box-sizing:border-box;
+	width:60px;
+	height:20px;
+	border-left: 2px solid #000;
+	padding-left: 15px;
+	line-height: 20px;
+}
+.login a,.add a,.luggage a{
+	font-size: 18px;
+	color:#3c3c3c;
+}
+#header .h_con .h_con1 .luggage a{	
+	position: relative;
+	box-sizing:border-box;
+	display:inline-block;
+	width:100px;
+	height:20px;
+	border-left: 2px solid #000;
+	padding-left: 40px;
+}
+#header .h_con .h_con1 .luggage i{
+	position: absolute;
+	left:0px;
+	top:-2px;
+	display: inline-block;
+	width:25px;
+	height:24px;
+	margin:0 10px;
+	background:url(../images/5.png);
+}
+#header .h_con .h_con1 .search{
+	position: absolute;
+	right:0px;
+	width:200px;
+	height:30px;
+	cursor: pointer;
+	background:url(../images/search.png) no-repeat;
+}
+#header .h_con .h_con1 .search input{
+	width:180px;
+	height:0px;
+}
+/*搜索框*/
+#header #ipt{
+	position: absolute;
+	top:2px;
+	left:2px;
+	width:150px;
+	height:24px;
+	border:none;
+}
+/*头部导航栏*/
+#header .h_con .h_con2{
+	width:656px;
+	height:20px;
+	margin-top:40px;
+	margin-left: 55px;
+	padding-left:60px;
+	font-size: 18px;	
+	background:url(../images/home.png) no-repeat;
+}
+#header .h_con2 ul li{
+	display: inline-block;
+	float: left;
+	margin-right: 40px;
+}
+#header .h_con2 ul li a{
+	color:#3c3c3c;
+}
+/*首页*/
+#show{
+	width:100%;
+}
+#show .s_con{
+	width:1000px;
+	min-width: 1000px;
+	height:53px;
+	font-size: 18px;
+	line-height: 53px;
+	margin:0 auto; 
+}
+#show .s_con a{
+	color:#3c3c3c;
+}
+.content{
+	width:1000px;
+	margin:0 auto;
+}
+/*酒店选择*/
+#choose{
+	width:1000px;
+	height:140px;
+	margin-bottom: 20px;
+}
+/*地区*/
+a{
+	color:#3c3c3c;
+}
+.ch-area,.ch-price{
+	height:46px;
+	border-bottom: 2px dashed #6e6e6e;
+	box-sizing:border-box;
+}
+.ch-area h5,.ch-price h5,.ch-type .opt h5{
+	display: inline-block;
+	width:40px;
+	font-size: 18px;
+	margin-top: 15px;
+}
+.ch-area .option,.ch-price .option,.ch-type .option2{
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 60px;
+}
+.ch-area .option a,.ch-price .option a,.ch-type .option2 a{
+	box-sizing:border-box;
+	display: inline-block;
+	/*width:80px;*/
+	height:25px;
+	border-radius: 5px;
+	padding: 2px 20px;
+	margin-left: 20px;
+}
+.ch-price .option input{
+	margin-left: 20px;
+
+}
+/*单选框*/
+input{
+	position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+label{
+    display: inline-block;
+    margin-right: 10px;
+}
+/*label:active{
+    background: #EEEEEE;
+}*/
+label:before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #6e6e6e;
+    border-radius:50%;
+}
+input:checked+label:before{
+	background-clip: content-box;
+    padding: .1em;
+    background-color:#ffa000;
+}
+
+/*mouseover效果*/
+.show{
+	border:2px solid #ffa000;
+}
+.ch-type{
+	box-sizing:border-box;
+	height:46px;
+}
+.ch-type .ch-type-lt{
+	box-sizing:border-box;
+	display: inline-block;
+	width:855px;
+	height:46px;
+	border-bottom: 2px solid #6e6e6e;
+}
+.ch-type .opt{
+	width:855px;
+	height:46px;
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;	
+}
+.reset{
+	position: relative;
+	box-sizing:border-box;
+	display: inline-block;
+	width:138px;
+	height:26px;
+	padding:0px 20px;
+}
+.reset a{
+	position: absolute;
+	top:20px;
+	display: block;
+	font-size: 16px;
+	color:#929292;
+	border-bottom: 1px solid #929292;
+}
+.show2{
+	color:#ffa000;
+}
+/*.ch-type-lt .opt .ch-type-all{
+	box-sizing:border-box;
+	font-size: 16px;
+	padding:2px 15px;
+	
+}*/
+/*.option2{
+	display: inline-block;
+	margin-left: 60px;
+}*//*
+.ch-type-lt .opt a{
+	box-sizing:border-box;
+	
+}*/
+/*推荐 价位*/
+.tj .tj-title{
+	height:38px;
+	background:#ffa000;
+	margin-bottom: 20px;
+	color:#fff;
+}
+.tj-tit-lt{
+	width:210px;
+	float: left;
+}
+.tj-tit-lt a{
+	box-sizing:border-box;
+	display: inline-block;
+	width:100px;
+	height:38px;
+	color:#fff;
+	text-align: center;
+	font-size: 18px;
+	line-height: 38px;
+}
+.tj-tit-lt .tj-lt-bg{
+	background:#b46400;
+}
+.tj-tit-lt .tj-lt-bg img{
+	/*vertical-align: middle;*/
+	margin-top: 0px;
+}
+.tj-tit-gt{
+	width:90px;
+	float: right;
+	font-size: 14px;
+	padding:10px 10px;
+}
+/*碧港良居商旅*/
+.tj-hotel{
+	overflow: hidden;
+	margin:25px 0;
+	
+}
+/*左边轮播图样式*/
+.wrap{
+	width:314px;
+	height:220px;
+	overflow: hidden;
+	position:relative;
+}
+.box{
+	width:314px;
+	height:220px;
+	overflow: hidden;
+}
+.cont{
+	height:220px;
+	width:1600px;
+	overflow:hidden;
+}
+.cont img{
+	width:314px;
+	height:220px;
+	float:left;
+}
+.lt,.gt{
+	width:36px;
+	height:36px;
+	position:absolute;
+	background:rgba(0,0,0,0.5);
+	top:100px;
+	text-align: center;
+	border-radius: 50%;
+	cursor:pointer;
+}
+.lt img,.gt img{
+	margin-top: 5px;
+}
+.lt{
+	left:0;
+}
+.gt{
+	right:0;			
+}
+.tj-lt{
+	width:314px;
+	float: left;
+}
+/*右边文字介绍*/
+.tj-gt{
+	width:660px;
+	height:220px;
+	float: right;
+}
+.tj-gt-top{
+	position: relative;
+	height:40px;
+	border-bottom: 1px dashed #898989;
+}
+.tj-gt-top h5{
+	display: inline-block;
+	font-size: 16px;
+	line-height: 40px;
+}
+.tj-gt-top img{	
+	vertical-align:middle; 
+}
+.tj-gt-top .star{
+	position: absolute;
+}
+.tj-gt-top .top-gt{
+	margin-left:350px;
+}
+.tj-gt-top span{
+	color:#898989;
+	font-size: 14px;
+	margin-left: 20px;
+}
+.tj-gt-mid{
+	margin-top: 10px;
+}
+.tj-gt-mid .p-index{
+	margin-left: 80px;
+	margin-bottom: 10px;
+}
+.tj-gt-mid .span-name{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 40px;
+}
+.tj-gt-mid .p-img img{
+	vertical-align: middle;
+}
+.tj-gt-mid .p-img span{
+	margin-right: 10px;
+}
+.tj-h1{
+	overflow: hidden;
+	background:#f0f0f0;
+}
+.tj-h2{
+	overflow: hidden;
+	height:408px;
+	margin-top: 20px;
+	border-right: 1px solid #c8c8c8;
+	border-bottom:1px solid #898989;
+}
+.tj-h2 .tj-cont1{
+	height:30px;
+	background:#f0f0f0;
+}
+.tj-h2 .tj-cont2,.tj-h2 .tj-cont3{
+	height:190px;
+}
+.tj-h2 .tj-cont1 ul li,.tj-h2 .tj-cont2 ul li,.tj-h2 .tj-cont3 ul li{
+	float: left;
+}
+.tj-h2 .tj-kong{
+	width:255px;
+	height:30px;
+	border-right: 1px solid #fff;
+}
+.tj-h2 .tj-lis{
+	width:98px;
+	height:30px;
+	font-size: 16px;
+	color:#6e6e6e;
+	text-align: center;
+	line-height: 30px;
+	border-right: 1px solid #fff;
+}
+.tj-h2 .tj-cont2{
+	border-bottom:1px dashed #8f8f8f;
+}
+.tj-h2 .tj-cont3{
+	
+}
+.tj-li-img{
+	width:255px;
+	height:190px;
+	border-right: 1px solid #c8c8c8;
+}
+.tj-h2 .tj-cont2 .tj-lis,.tj-h2 .tj-cont3 .tj-lis{
+	height:190px;
+	color:#3c3c3c;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 190px;
+	border-right: 1px solid #c8c8c8;
+}
+.tj-h2 .tj-sd{
+	width:148px;
+	text-align: center;
+	line-height: 190px;
+}
+.tj-h2 .li-img{
+	width:227px;
+	height:160px;
+	margin-top: 15px;
+}
+.tj-h2 .tj-sd span{
+	color:#fff;
+	font-size: 14px;
+	font-weight: bold;
+	background:#ffa000;
+	padding:5px 20px;
+	border-radius: 5px;
+}
+.tj-h2 .tj-cont2 .tj-li-bg,
+.tj-h2 .tj-cont3 .tj-li-bg{
+	color:#cc0000;
+	font-size: 24px;
+}
+.tj-hotel2{
+	padding-top: 25px;
+	border-top: 1px solid #ffa000;
+}
+/*分页*/
+.fy{
+	width:1000px;
+	height:45px;
+	border-bottom:1px solid #898989;
+	margin-bottom: 20px;
+}
+.page{
+	width:265px;
+	height:20px;
+	margin:0px auto;
+	font-size: 12px;
+	color:#3c3c3c;
+	padding:0px ;
+	line-height: 20px;
+	text-align: center;
+}
+.page .bg{
+	display: inline-block;
+	width:30px;
+	height:20px;
+	background:#6e6e6e;
+}
+/*页脚信息*/
+#footer{
+	width:100%;
+	min-width: 1000px;
+	background:#023c4d;
+}
+.serve{
+	width:800px;
+	height:178px;
+	margin:0 auto;
+}
+.about,.help,.web{
+	float: left;
+	width:150px;
+	margin-top:25px;
+}
+.fl_us{
+	float: left;
+	width:170px;
+	margin-top:25px;
+}
+.contact{
+	float: left;
+	width:180px;
+	margin-top:25px;
+}
+.serve h5{
+	font-size: 18px;
+	color:#fff;
+}
+.about ul li a,.help ul li a,.web ul li a{
+	display: block;
+	font-size: 16px;
+	color:#fff;
+	line-height: 30px;
+}
+/*关注我们*/
+.fl_us a{
+	display: block;
+	width:76px;
+	height:34px;
+	margin-top: 22px;
+	background:url(../images/weixin.png) no-repeat; 
+}
+/*联系电话*/
+.contact h3{
+	font-size: 28px;
+	color:#fff;
+}
+.contact h4{
+	font-size: 18px;
+	color:#fff;
+	line-height: 30px;
+}
+.contact a{
+	display: block;
+	width:130px;
+	height:25px;
+	background:#fff;
+	border-radius: 5px;
+	color:#023c4d;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+/*页脚版权信息*/
+.copy{
+	width:100%;
+	height:55px;
+	border-top: 2px solid #fff;
+}
+.copy p{
+	display: block;
+	width:560px;
+	height:20px;
+	margin:15px auto;
+	font-size: 14px;
+	color:#fff;
+}

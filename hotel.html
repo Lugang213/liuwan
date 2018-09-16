@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/hotel.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<script src="js/jquery-1.8.3.min.js"></script>
+	<script src="js/hotel.js"></script>
+</head>
+<body>
+	<div>
+		<!-- 头部区域 -->
+		<div id="header">
+			<div class="h_con">
+				<div class="h_con1">
+					<div class="photo"><a href="javascript:;">400-800-8820</a></div>
+					<div class="login"><a href="javascript:;">登录</a></div>
+					<div class="add"><a href="javascript:;">注册</a></div>
+					<div class="luggage">
+						<a href="javascript:;"><i></i>行李箱</a></div>
+					<div class="search">
+						<input type="text" id="ipt">
+					</div>
+				</div>
+				<div class="h_con2">
+					<ul>
+						<li><a href="">第一次</a></li>
+						<li><a href="">目的地</a></li>
+						<li><a href="" style="color:#176fbb">自定行程</a></li>
+						<li><a href="">游记</a></li>
+						<li><a href="">特产</a></li>
+						<li><a href="">优惠</a></li>
+						<li><a href="">环岛巴士</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 首页》自订行程》酒店 -->
+		<div id="show">
+			<div class="s_con">
+				<a href="">首页</a> >
+				<a href="">自订行程</a> >
+				<a href="">酒店</a>
+			</div>
+		</div>
+		<!-- 页面主体内容 -->
+		<div class="content">
+			<!-- 选择 -->
+			<div id="choose">
+				<div class="ch-area">
+					<h5>地区</h5>
+					<div class="option" id="option">
+						<a href="javascript:;">全部</a>
+						<a href="javascript:;" class="show">台北</a>
+						<a href="javascript:;">台中</a>
+						<a href="javascript:;">嘉义</a>
+						<a href="javascript:;">高雄</a>
+						<a href="javascript:;">台东</a>
+						<a href="javascript:;">花莲</a>
+					</div>
+				</div>
+				<div class="ch-price">
+					<h5>价格</h5>
+					<div class="option" id="radio">
+						<a href="javascript:;" id="as3">全部</a>
+						<input type="radio" id="radio1" name="ch1" value="1"><label for="radio1"><￥300</label> 
+						<input type="radio" id="radio2" name="ch1" value="1" checked><label for="radio2">￥300-500</label> 
+						<input type="radio" id="radio3" name="ch1" value="1"><label for="radio3">￥500-1000</label> 
+						<input type="radio" id="radio4" name="ch1" value="1"><label for="radio4">￥1000-1200</label> 
+						<input type="radio" id="radio5" name="ch1" value="1"><label for="radio5">￥1000-1200</label> 
+						<input type="radio" id="radio6" name="ch1" value="1"><label for="radio6">> ￥1200</label> 
+					</div>	
+				</div>
+				<div class="ch-type">
+					<div class="ch-type-lt">
+						<div class="opt" id="opt">
+							<h5>房型</h5>
+							<div class="option2" id="option2">
+								<a href="javascript:;"  class="">全部</a>
+								<a href="javascript:;">标准间</a>
+								<a href="javascript:;">大床房</a>
+								<a href="javascript:;">套房</a>
+							</div>
+							
+						</div>
+					</div>
+					<div class="reset">
+						<a href="javascript:;" id="reset">重置筛选条件</a>
+					</div>
+				</div>
+			</div>
+			<!-- 推荐 价位 -->
+			<div class="tj">
+				<div class="tj-title">
+					<div class="tj-tit-lt">
+						<a href="">推荐</a>
+						<a href="" class="tj-lt-bg">价位 <img src="images/fy_07.png" alt=""></a>
+					</div>
+					<div class="tj-tit-gt">
+						<p>找到房间24间</p>
+					</div>
+				</div>
+				<!-- 碧港良居商旅 -->
+				<div class="tj-hotel">
+					<div class="tj-h1">
+						<div class="tj-lt">
+							<!-- 轮播图 -->
+							<div class="wrap">
+								<div class="box">
+									<div class="cont">
+										<img src="images/03_03.jpg" alt="">
+										<img src="images/01_03.jpg" alt="">
+										<img src="images/02_03.jpg" alt="">
+										<img src="images/03_03.jpg" alt="">
+										<img src="images/01_03.jpg" alt="">
+									</div>
+									<p class="lt"><img src="images/pre.png" alt=""></p>
+									<p class="gt"><img src="images/next.png" alt=""></p>
+								</div>
+							</div>
+						</div>
+						<div class="tj-gt">
+							<div class="tj-gt-top">
+								<h5>碧港良居商旅</h5>
+								<img src="images/star.png" alt="" class="star">
+								<span class="top-gt"><img src="images/xin_03.png" alt=""> 喜欢 1168</span>
+								<span><img src="images/xinxi_03.png" alt="">评论 1168</span>
+							</div>
+							<div class="tj-gt-mid">
+								<p><span class="span-name">地　　址：</span> 屏东县恒春镇埔顶路535号</p>
+							<p><span class="span-name">房间特色：</span> 2013年新开业的设计型酒店，每个房间都有不同的主题，比如拳击主题房等等</p>
+							<p class="p-index">临近台北捷运府中站各种风格一应俱全，用品别致，环境干净，性价比高。</p>
+							<p class="p-img"><span class="span-name">服　　务：</span> 
+								<span> <img src="images/05.png" alt="">提供早餐</span>
+								<span><img src="images/06.png" alt="">无线网络</span>
+								<span><img src="images/07.png" alt="">信用卡服务</span>
+							</p>
+							</div>
+							
+						</div>
+					</div>
+					<div class="tj-h2">
+						<div class="tj-cont1">
+							<ul>
+								<li class="tj-kong"></li>
+								<li class="tj-lis">床型</li>
+								<li class="tj-lis">早餐</li>
+								<li class="tj-lis">宽带</li>
+								<li class="tj-lis">床型</li>
+								<li class="tj-lis">房价</li>
+								<li class="tj-lis">现价</li>
+								<li class="tj-sd"></li>
+							</ul>
+						</div>
+						<div class="tj-cont2">
+							<ul>
+								<li class="tj-li-img"><img src="images/cont1_03.jpg" alt="" class="li-img"></li>
+								<li class="tj-lis">标准双人间</li>
+								<li class="tj-lis">含早</li>
+								<li class="tj-lis">免费</li>
+								<li class="tj-lis">双床</li>
+								<li class="tj-lis"><del>￥557</del></li>
+								<li class="tj-lis tj-li-bg">￥508</li>
+								<li class="tj-sd"><span>速订</span></li>
+							</ul>
+						</div>
+						<div class="tj-cont3">
+							<ul>
+								<li class="tj-li-img"><img src="images/cont2_03.jpg" alt="" class="li-img"></li>
+								<li class="tj-lis">双人床</li>
+					 			<li class="tj-lis">含早</li>
+								<li class="tj-lis">免费</li>
+								<li class="tj-lis">大床</li>
+								<li class="tj-lis"><del>￥557</del></li>
+								<li class="tj-lis tj-li-bg">￥508</li>
+								<li class="tj-sd"><span>速订</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 展示房间2 -->
+				<div class="tj-hotel tj-hotel2">
+					<div class="tj-h1 tj">
+						<div class="tj-lt">
+							<!-- 轮播图 -->
+							<div class="wrap">
+								<div class="box">
+									<div class="cont">
+										<img src="images/06_03.jpg" alt="">
+										<img src="images/04_03.jpg" alt="">
+										<img src="images/05_03.jpg" alt="">
+										<img src="images/06_03.jpg" alt="">
+										<img src="images/04_03.jpg" alt="">
+									</div>
+									<p class="lt"><img src="images/pre.png" alt=""></p>
+									<p class="gt"><img src="images/next.png" alt=""></p>
+								</div>
+							</div>
+						</div>
+						<div class="tj-gt">
+							<div class="tj-gt-top">
+								<h5>碧港良居商旅</h5>
+								<img src="images/star.png" alt="" class="star">
+								<span class="top-gt"><img src="images/xin_03.png" alt=""> 喜欢 1168</span>
+								<span><img src="images/xinxi_03.png" alt="">评论 1168</span>
+							</div>
+							<div class="tj-gt-mid">
+								<p><span class="span-name">地　　址：</span> 屏东县恒春镇埔顶路535号</p>
+							<p><span class="span-name">房间特色：</span> 2013年新开业的设计型酒店，每个房间都有不同的主题，比如拳击主题房等等</p>
+							<p class="p-index">临近台北捷运府中站各种风格一应俱全，用品别致，环境干净，性价比高。</p>
+							<p class="p-img"><span class="span-name">服　　务：</span> 
+								<span> <img src="images/05.png" alt="">提供早餐</span>
+								<span><img src="images/06.png" alt="">无线网络</span>
+								<span><img src="images/07.png" alt="">信用卡服务</span>
+							</p>
+							</div>
+							
+						</div>
+					</div>
+					<div class="tj-h2">
+						<div class="tj-cont1">
+							<ul>
+								<li class="tj-kong"></li>
+								<li class="tj-lis">床型</li>
+								<li class="tj-lis">早餐</li>
+								<li class="tj-lis">宽带</li>
+								<li class="tj-lis">床型</li>
+								<li class="tj-lis">房价</li>
+								<li class="tj-lis">现价</li>
+								<li class="tj-sd"></li>
+							</ul>
+						</div>
+						<div class="tj-cont2">
+							<ul>
+								<li class="tj-li-img"><img src="images/2-1_03.jpg" alt="" class="li-img"></li>
+								<li class="tj-lis">标准双人间</li>
+								<li class="tj-lis">含早</li>
+								<li class="tj-lis">免费</li>
+								<li class="tj-lis">双床</li>
+								<li class="tj-lis"><del>￥557</del></li>
+								<li class="tj-lis tj-li-bg">￥508</li>
+								<li class="tj-sd"><span>速订</span></li>
+							</ul>
+						</div>
+						<div class="tj-cont3">
+							<ul>
+								<li class="tj-li-img"><img src="images/2-2_03.jpg" alt="" class="li-img"></li>
+								<li class="tj-lis">双人床</li>
+					 			<li class="tj-lis">含早</li>
+								<li class="tj-lis">免费</li>
+								<li class="tj-lis">大床</li>
+								<li class="tj-lis"><del>￥557</del></li>
+								<li class="tj-lis tj-li-bg">￥508</li>
+								<li class="tj-sd"><span>速订</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 展示房间3 -->
+				<div class="tj-hotel tj-hotel2">
+					<div class="tj-h1 tj">
+						<div class="tj-lt">
+							<!-- 轮播图 -->
+							<div class="wrap">
+								<div class="box">
+									<div class="cont">
+										<img src="images/9_03.jpg" alt="">
+										<img src="images/7_03.jpg" alt="">
+										<img src="images/8_03.jpg" alt="">
+										<img src="images/9_03.jpg" alt="">
+										<img src="images/7_03.jpg" alt="">
+									</div>
+									<p class="lt"><img src="images/pre.png" alt=""></p>
+									<p class="gt"><img src="images/next.png" alt=""></p>
+								</div>
+							</div>
+						</div>
+						<div class="tj-gt">
+							<div class="tj-gt-top">
+								<h5>碧港良居商旅</h5>
+								<img src="images/star.png" alt="" class="star">
+								<span class="top-gt"><img src="images/xin_03.png" alt=""> 喜欢 1168</span>
+								<span><img src="images/xinxi_03.png" alt="">评论 1168</span>
+							</div>
+							<div class="tj-gt-mid">
+								<p><span class="span-name">地　　址：</span> 屏东县恒春镇埔顶路535号</p>
+							<p><span class="span-name">房间特色：</span> 2013年新开业的设计型酒店，每个房间都有不同的主题，比如拳击主题房等等</p>
+							<p class="p-index">临近台北捷运府中站各种风格一应俱全，用品别致，环境干净，性价比高。</p>
+							<p class="p-img"><span class="span-name">服　　务：</span> 
+								<span> <img src="images/05.png" alt="">提供早餐</span>
+								<span><img src="images/06.png" alt="">无线网络</span>
+								<span><img src="images/07.png" alt="">信用卡服务</span>
+							</p>
+							</div>
+							
+						</div>
+					</div>
+					<div class="tj-h2">
+						<div class="tj-cont1">
+							<ul>
+								<li class="tj-kong"></li>
+								<li class="tj-lis">床型</li>
+								<li class="tj-lis">早餐</li>
+								<li class="tj-lis">宽带</li>
+								<li class="tj-lis">床型</li>
+								<li class="tj-lis">房价</li>
+								<li class="tj-lis">现价</li>
+								<li class="tj-sd"></li>
+							</ul>
+						</div>
+						<div class="tj-cont2">
+							<ul>
+								<li class="tj-li-img"><img src="images/3-1_03.jpg" alt="" class="li-img"></li>
+								<li class="tj-lis">标准双人间</li>
+								<li class="tj-lis">含早</li>
+								<li class="tj-lis">免费</li>
+								<li class="tj-lis">双床</li>
+								<li class="tj-lis"><del>￥557</del></li>
+								<li class="tj-lis tj-li-bg">￥508</li>
+								<li class="tj-sd"><span>速订</span></li>
+							</ul>
+						</div>
+						<div class="tj-cont3">
+							<ul>
+								<li class="tj-li-img"><img src="images/3-2_03.jpg" alt="" class="li-img"></li>
+								<li class="tj-lis">双人床</li>
+					 			<li class="tj-lis">含早</li>
+								<li class="tj-lis">免费</li>
+								<li class="tj-lis">大床</li>
+								<li class="tj-lis"><del>￥557</del></li>
+								<li class="tj-lis tj-li-bg">￥508</li>
+								<li class="tj-sd"><span>速订</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="fy">
+				<div class="page">
+					<span>上一页</span>
+					<span>1</span>
+					<span>……</span>
+					<span>12</span>
+					<span class="bg">13</span>
+					<span>14</span>
+					<span>……</span>
+					<span>40</span>
+					<span>下一页</span>
+				</div>		
+			</div>
+			
+		</div>
+		<!-- 页脚 -->
+		<div id="footer">
+			<div class="serve">
+				<div class="about">
+					<h5>关于遛弯</h5>
+					<ul>
+						<li><a href="">公司简介</a></li>
+						<li><a href="">联系我们</a></li>
+						<li><a href="">诚聘英才</a></li>
+						<li><a href="">网站地图</a></li>
+					</ul>
+				</div>
+				<div class="help">
+					<h5>帮助中心</h5>
+					<ul>
+						<li><a href="">赴台手续</a></li>
+						<li><a href="">遛弯玩法</a></li>
+						<li><a href="">常见问题</a></li>
+					</ul>
+				</div>
+				<div class="web">
+					<h5>网站条款</h5>
+					<ul>
+						<li><a href="">服务条款</a></li>
+						<li><a href="">免责声明</a></li>
+					</ul>
+				</div>
+				<div class="fl_us">
+					<h5>关注我们</h5>
+					<a href=""></a>
+				</div>
+				<div class="contact">
+					<h3>400 820 8820</h3>
+					<h4>周一至周日</h4>
+					<h4>9：20～20:00</h4>
+					<a href="">在线服务&gt;&gt;</a>
+				</div>
+			</div>
+			<div class="copy">
+				<p>Copyright &copy; 2013-2014 www.6waner.cn All Right Reserved.京ICP备11015236号</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
